@@ -1,0 +1,1 @@
+rule org.objectweb.asm.**  org.objectweb.asm3.@1

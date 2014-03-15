@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backends>
+    <backend name="small">
+        <class>B4</class>
+        <instances>3</instances>
+        <options>
+            <dynamic>false</dynamic>
+            <public>true</public>
+        </options>
+    </backend>
+    <backend name="big2">
+        <class>B8</class>
+        <instances>1</instances>
+        <options>
+            <dynamic>false</dynamic>
+            <public>true</public>
+        </options>
+    </backend>
+    
+    <backend name="big">
+        <class>B8</class>
+        <options>
+            <dynamic>false</dynamic>
+            <public>false</public>
+        </options>
+    </backend>
+</backends>
